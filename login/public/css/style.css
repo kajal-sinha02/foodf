@@ -1,0 +1,231 @@
+body {
+    background-color: black;
+    margin: 0px;
+  }
+  .navbar {
+    /* background-color: #333; Navbar background color */
+    background: linear-gradient(to right, #f10479, #030202);
+    overflow: hidden;
+    display: block;
+  
+  }
+  
+  .navbar a {
+    float: left;
+    
+    display: block;
+    color: white; /* Text color of navbar links */
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;  
+  }
+  
+  .navbar a:hover {
+    color: white; /* Text color on hover */
+    border-bottom: 3px solid rgb(255, 255, 255); 
+    
+  }
+  #login{
+    display: flex;flex-direction:row-reverse; padding:8px;
+  }
+  #sign_btn,#signin_btn{
+    border-radius: 10px;height:35px;background: linear-gradient(to right, #f10479, #030202);color: white;border-color: black;border-color: black;width: 100px;border-color: white,;padding: 2px;margin: 2px;
+  }
+  #sign_btn,#signin_btn :hover{
+    background-color: #030202;
+  }
+  @media screen and (max-width: 300px) {
+    #navbar,#login {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+
+
+
+  #center-block
+  {
+    display: flex;
+    justify-content: center; /* Horizontally center the child element */
+    align-items: center; /* Vertically center the child element */
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    margin: 0px;
+  }
+  
+  #login-box
+  {
+    position: relative;
+    
+    width: 400px;
+    height: 700px;
+    background-color: #ffffff;
+  }
+  
+  /* login form styling */
+  .login-form {
+    width: 360px;
+    height: 800px;
+  
+    
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+  
+    align-items: center;
+    border-radius: 5px;
+
+  }
+  
+  .form-group {
+  
+    margin-bottom: 20px;
+    width: 100%;
+    
+  }
+  
+  .form-group label {
+  
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    font-size: 14px;
+    color: rgb(162, 162, 162);
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .form-group input:focus + label{
+    transform: translateY(0);
+    font-size: 12px;
+  }
+  .form-group input:valid + label {
+    transform: translateY(0);
+    font-size: 12px;
+  }
+  
+  .form-group input:focus {
+    border-color: #000000;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    height: 20px;
+  }
+  .login-button {
+    
+    width: 50%;
+    padding: 10px;
+    background: linear-gradient(90deg,  rgb(95, 32, 255), #9935ad);
+    margin-left: 100px;
+    border: none;
+    color: white;
+    font-size:15px;
+
+    cursor: pointer;
+    
+  }
+
+#block{
+  
+  height:400px;
+  width:450px;
+  background: linear-gradient(45deg,  rgb(95, 32, 255), #9935ad)
+}
+
+#block1{
+  
+  height:700px;
+  width:450px;
+  background: linear-gradient(45deg,  rgb(95, 32, 255), #9935ad)
+  
+}
+
+#center_block{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+  /* CSS for the centered div */
+  #centered-image {
+    margin-left: 300px;
+    margin-top: 15px ;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #9935ad, #030202);
+    position: absolute;
+    
+    
+  }
+
+  #centered-image2 {
+    margin-left: 280px;
+    margin-top: 125px ;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #9935ad, #030202);
+    position: absolute;
+    
+    
+  }
+  
+  #centeredI-image {
+    width: 100px;
+    height: 100px;
+   
+    margin-left: 20px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #030202, rgb(95, 32, 255));
+    position:absolute;
+    
+  }
+  #centeredI-image2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #030202, rgb(95, 32, 255));
+    position:absolute;
+    
+  }
+
+  #pr{
+    display: flex;
+  }
+
+  #pr p{
+    margin-left: 70px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto', serif;
+  
+  }
+
+  #block2{
+    display: flex;
+    
+  }
+
+  #block2 p{
+    margin-left: 170px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+  }
