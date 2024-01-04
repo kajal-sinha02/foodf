@@ -1,6 +1,7 @@
 #navb{
     top: 0;
-    background: linear-gradient(to right,#00a169, #79f128,#00a550);
+    /* background: linear-gradient(to right,#00a169, #79f128,#00a550); */
+    background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
     height: 70px;
     width: 100%;
     display: flex;
@@ -15,15 +16,32 @@
     color: white;
     
   }
-  
+  #navc a:hover{
+    color: #d2d2d2;
+   
+    
+  }
   #navc{
+    font-weight: 500;
     margin-left: 120px;
     display: flex; 
     width:600px;
     color: white;
     font-size: 18px;
   }
+  #sign_btn{
+    
+    font-weight: 500;
+    
+}
 
+
+#signin_btn {
+
+    font-weight: 500;
+   
+   
+}
   footer {
     position: fixed;
     background-color: #004d40; /* Dark green color */

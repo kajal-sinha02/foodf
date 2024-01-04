@@ -21,13 +21,47 @@ nav{
 }
 
 #navb{
-  background: linear-gradient(to right,#00a169, #79f128,#00a550);
+  /* background: linear-gradient(to right, #08441e,purple, #08441e,#05bd7d, #08441e,#000101, #08441e,#3da82d); */
+  /* background: linear-gradient(to right, #00ff5e,purple, #08441e,#05bd7d, #d333ff,#08441e, #137938,#00c917);  */
+  background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
   height: 70px;
   width: 100%;
   display: flex;
   
   align-items: center;
 }
+
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Style for slides */
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+  height: 400px;
+  width: 1200px;
+}
+
+/* Style for navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
 #lr
 {
   display: flex;
@@ -43,10 +77,20 @@ nav{
   width:600px;
   color: white;
   font-size: 18px;
+  font-weight: 500;
 }
+
+
 #navc a{
     margin-left: 40px;
 }
+
+#navc a:hover{
+  color: #d2d2d2;
+ 
+  
+}
+
 #head p{
     font-size: 150px;
     font-family: 'Dancing Script';
@@ -102,12 +146,13 @@ nav{
     background-clip: text;
     color: transparent;
 }
-#combined img
+#combined 
 {
-    height: 520px;
-    width: 700px;
-    margin-right: 1000px;
-    top: 5;
+     
+      height: 520px;
+      width: 700px;
+      margin-right: 1000px;
+      top: 5;
       right: 0;
       left: 790px;
       max-height: 100%;
@@ -249,8 +294,8 @@ nav{
 
   .contact-card h2 {
     font-size: 30px;
-    font-style: "Space Grotesk";
-    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     margin-bottom: 10px;
     color: white
   }
@@ -298,7 +343,10 @@ nav{
 
   /* Front face */
  
-
+  .card-face .card-back
+{
+  height: 0px;
+}
   /* Back face */
   .flip-card .card-back {
     /* background-color: #60ffad; */
@@ -320,4 +368,8 @@ nav{
     color: #fff;
     text-align: center;
     padding: 20px;
+  }
+
+  #delayedText {
+    display: none; /* Hide the text initially */
   }

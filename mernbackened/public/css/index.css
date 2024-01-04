@@ -53,55 +53,28 @@ body{
 
 
 
-#signI_btn{
+#sign_btn{
     
-    color: #000000;
-    filter: blur(6);
-    font-family: "roboto";
-    font-size: 15px;
-    background: linear-gradient(to right, #9935ad, #030202);color: white;border-color: black;border-color: white;
-    width: 200px;
-    padding: 10px;
+    font-weight: 500;
     
 }
 
-#signI_btn a{
-    
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    
-}
 
-#signI_btn:hover{
-    transform: scale(1.03);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-#signinI_btn {
+#signin_btn {
 
- 
-    filter: blur(6);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    background: linear-gradient(to right, #9935ad, #030202);color: white;border-color: black;border-color: white;
-    width: 100px;
-    padding: 10px;
+    font-weight: 500;
    
    
 }
 
-#signinI_btn:hover{
-    transform: scale(1.03);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+#signin_btn:hover{
+    
 }
 
-#signinI_btn a{
+#signin_btn a{
     
     /* text-shadow: none; */
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    margin-bottom: 20px;
+    
 }
 
 
@@ -139,8 +112,6 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
-
-
 }
 
 
@@ -173,14 +144,14 @@ footer {
     -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff; /* Create an outline effect using multiple shadows */
     font-family: "Alkatra";
-    animation: gradientAnimation 10s infinite, colorAnimation 10s infinite; 
+    /* animation: gradientAnimation 10s infinite, colorAnimation 10s infinite;  */
     background-size: 200% 100%; 
      
 }
 
 .image2container{
-    height: 320px;
-    width: 500px;
+    height: 350px;
+    width: 650px;
 
     border-radius: 20px;
     padding: 10px;
@@ -196,51 +167,6 @@ footer {
 }
 
 
-.slider {
-    
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
-    height: 400px;
-    width: 100%;
-  }
-  
-  .slides {
-    padding: 20px;
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    margin: 30px;
-  }
-  
-  .slides img {
-    width: 300px;
-    object-fit: cover;
-    height: auto;
-    padding: 30px;
-    object-fit: cover;
-    border-radius: 50px;
-    
-  }
-  
-  .prev-btn,
-  .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .prev-btn {
-    left: 0;
-  }
-  
-  .next-btn {
-    right: 0;
-  }
 
 .container {
     position: relative;
@@ -327,7 +253,7 @@ footer {
         
     }
     50% {
-        color: #349b00; 
+        color: #000000; 
         
     }
     100% {
