@@ -1,7 +1,7 @@
 #navb{
     /* background: linear-gradient(to right,#00a169, #79f128,#00a550); */
     background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
-    height: 70px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,8 +15,9 @@
     
   }
   #navc a:hover{
-    color: #d2d2d2;
-   
+    color: #000000;
+    border-bottom: 0px solid #ffffff; /* You can adjust the color and style as needed */
+    display: inline-block; 
     
   }
   #sign_btn{

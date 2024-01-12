@@ -49,6 +49,14 @@ app.get("/register",(req,res)=>{
     res.render("register");
 })
 
+app.get("/mission",(req,res)=>{
+    res.render("mission");
+})
+
+app.get("/about",(req,res)=>{
+    res.render("about");
+})
+
 app.get("/login",(req,res)=>{
 
    
@@ -56,6 +64,12 @@ app.get("/login",(req,res)=>{
         username: req.body.name, // <-- line 10 and if I remove this it goes to line 11
         emailid: req.body.email,
       });
+})
+
+app.get("/fireauth",(req,res)=>{
+
+   
+    res.render("fireauth");
 })
 
 
